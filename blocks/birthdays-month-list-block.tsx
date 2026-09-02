@@ -2,7 +2,7 @@ import { Cake } from "lucide-react";
 import { listPublicBirthdaysHandler as listPublicBirthdays } from "../features/list-public-birthdays/handler";
 import { MONTH_LABELS } from "../shared/months";
 import type { BlockRendererProps } from "@venore/plugin-sdk";
-import { hasRichTextContent, renderRichTextContent, RICH_TEXT_INLINE_CLASSES } from "@venore/plugin-sdk";
+import { hasRichTextContent, renderRichTextContent, RICH_TEXT_INLINE_CLASSES } from "@venore/plugin-sdk/page-builder";
 import { cn } from "@venore/plugin-sdk/ui";
 
 function readString(data: Record<string, unknown>, key: string, fallback: string): string {

@@ -1,7 +1,7 @@
 import { AdminAccessDenied } from "@venore/plugin-sdk/ui";
 import { AdminPageHeader } from "@venore/plugin-sdk/ui";
 import { getBirthdayAppearance } from "../../index";
-import { getPluginAdminPageData } from "@venore/plugin-sdk";
+import { getPluginAdminPageData } from "@venore/plugin-sdk/admin";
 import { BirthdaysAppearanceForm } from "./birthdays-appearance-form";
 
 export default async function BirthdaysAppearancePage() {
