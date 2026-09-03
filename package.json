@@ -12,7 +12,18 @@
     "./migrations/*": "./migrations/*",
     "./package.json": "./package.json"
   },
-  "peerDependencies": { "drizzle-orm": ">=0.45", "next": ">=16", "react": ">=19", "recharts": ">=3", "sonner": ">=2" },
-  "dependencies": { "papaparse": "^5.5.4" },
-  "devDependencies": { "@types/papaparse": "^5.5.2", "drizzle-kit": "^0.31.10" }
+  "peerDependencies": {
+    "drizzle-orm": ">=0.45",
+    "next": ">=16",
+    "react": ">=19",
+    "recharts": ">=3",
+    "sonner": ">=2"
+  },
+  "dependencies": {
+    "papaparse": "^5.5.4",
+    "@types/papaparse": "^5.5.2"
+  },
+  "devDependencies": {
+    "drizzle-kit": "^0.31.10"
+  }
 }
