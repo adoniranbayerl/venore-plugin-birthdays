@@ -1,0 +1,18 @@
+{
+  "name": "@venore/plugin-birthdays",
+  "version": "1.0.0",
+  "description": "Mural de aniversariantes com import CSV (plugin do Venore Docks).",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./index.ts",
+    "./manifest": "./manifest.ts",
+    "./route-table": "./routes/route-table.ts",
+    "./contributions": "./contributions.ts",
+    "./migrations/*": "./migrations/*",
+    "./package.json": "./package.json"
+  },
+  "peerDependencies": { "drizzle-orm": ">=0.45", "next": ">=16", "react": ">=19", "recharts": ">=3", "sonner": ">=2" },
+  "dependencies": { "papaparse": "^5.5.4" },
+  "devDependencies": { "@types/papaparse": "^5.5.2", "drizzle-kit": "^0.31.10" }
+}
